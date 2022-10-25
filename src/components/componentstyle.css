@@ -1,0 +1,21 @@
+.Box{
+    background-color:white;
+    padding: 20px;
+    width:fit-content ;
+    height: 200px;
+    border-radius: 20px;
+   
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+}
+img{
+    width: 50px;
+    align-self:baseline;
+} 
+button:hover{
+    background-color: rgb(32, 28, 28);
+    color: white;
+    cursor: pointer;
+}
